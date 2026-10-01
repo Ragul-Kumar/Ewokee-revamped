@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="/logo/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/logo/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/logo/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/logo/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="/logo/manifest.json" />
+    <meta name="theme-color" content="#1b1464" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Plus+Jakarta+Sans:wght@500..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "783943060782409");
+      fbq("track", "PageView");
+    </script>
+    <!-- End Meta Pixel Code -->
+
+    <title>Mend</title>
+    <meta
+      name="keywords"
+      content="Mend, Therapy, Online Counseling, e-Therapy, Teletherapy, Mental Health, Virtual Therapy, Online Psychologist, Counseling Services, Anxiety, Depression, Stress, Self-care, Wellbeing, Licensed Therapists, Virtual Sessions, Remote Counseling, Mental Wellness"
+    />
+    <meta
+      name="description"
+      content="Find expert therapists for individual, couple, and family counseling. Affordable mental health support tailored to your needs."
+    />
+    <meta property="og:title" content="Mend - Online Therapy Platform" />
+    <meta
+      property="og:description"
+      content="No Labels, No Long Waitlists, No Pressure. You don’t have to carry it all alone anymore."
+    />
+    <meta property="og:type" content="website" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=783943060782409&ev=PageView&noscript=1"
+    /></noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
